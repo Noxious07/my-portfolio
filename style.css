@@ -148,3 +148,62 @@ html{
     transform: translateY(-8px);
     box-shadow: 0 6px 16px rgba(0,0,0,0.2);
 }
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1, h2, h3, p {
+    word-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+    body{
+        font-size: 16px;
+        padding: 10px;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+     h1 {
+        font-size: 22px;
+    }
+     p {
+        font-size: 14px;
+    }
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center;     /* centers vertically */
+  height: 60px;            /* or whatever height you want */
+  background-color: black;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  margin: 0 10px;
+}
+
+nav {
+  width: 100%;
+}
