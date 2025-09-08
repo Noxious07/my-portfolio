@@ -176,7 +176,10 @@ h1, h2, h3, p {
     .container {
         width: 100%;
     }
-    .content,
+    .content {
+        
+        padding: 10px; font-size: 14px;
+    }
     .projects {
         max-width: 100%;
         padding: 10px;
