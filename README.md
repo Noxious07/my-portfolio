@@ -34,7 +34,9 @@ my-portfolio/ ├── index.html     → Main landing page
 ## 🌍 LIVE DEMO
 
 Check out the live site here:  
-👉 [https://noxious07.github.io/my-portfolio/](https://noxious07.github.io/my-portfolio/)
+👉🚀 Live Site: [Visit Here](https://noxious07.github.io/my-portfolio/)
+
+This repository contains my personal portfolio website built with HTML and CSS. It showcases my projects, skills, and journey as a developer.
 
 ---
 
